@@ -1,4 +1,4 @@
-name: Website Deployment
+name: continue on error Deployment
 on:
   push:
     branches:
@@ -87,4 +87,4 @@ jobs:
       - name: output informtation
         run: |
           echo "algo salio mal"
-          echo ${{ toJson(github) }}
+          echo "${{ toJson(github) }}"

@@ -87,4 +87,4 @@ jobs:
       - name: output informtation
         run: |
           echo "algo salio mal"
-          echo ${{toJson(github)}}
+          echo ${{ toJson(github) }}
